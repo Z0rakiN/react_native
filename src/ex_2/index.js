@@ -6,6 +6,7 @@ export default function Props ({mensagem}) {
     return(
         <View>
             <Text>Mensagem: {mensagem}</Text>
+            <Text>Outro texto</Text>
         </View>
     );
 }
