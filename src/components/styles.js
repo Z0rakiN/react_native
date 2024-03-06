@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
         height:'100%',
         flexDirection: 'column',
         backgroundColor:'#E3F2fd',
-        justifyContent: 'center',
+        // justifyContent: 'center',
         alignItems: 'center',
     },
     imagem:{
