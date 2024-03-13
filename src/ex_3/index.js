@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 
 import styles from './styles';
@@ -9,7 +9,11 @@ export default function Exemplo_3 () {
 
     function Ola (nome) {
         alert(`Olá ${nome}`);
-    }   
+    } 
+    
+    useEffect(()=>{
+        console.log(numero)
+    },[numero])
     
     function incremento() {
         const inc = numero + 1;
