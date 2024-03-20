@@ -6,12 +6,13 @@ import logo from './assets/002-1-react-native.png'
 import Props from './src/ex_2';
 import Menssagem from './src/components/menssagem';
 import Atividade_3 from './src/Atividade 3';
+import Exemplo4 from './src/ex_4';
 // import Exemplo_3 from './src/ex_3';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividade_3 />
+      <Exemplo4 />
     </View>
   );
 }
